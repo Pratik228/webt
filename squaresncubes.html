@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      table,
+      tr,
+      td {
+        border: solid black;
+        width: 33%;
+        text-align: center;
+        border-collapse: collapse;
+        background-color: lightblue;
+      }
+      .table {
+        margin: center;
+      }
+    </style>
+  </head>
+  <body class="table" onload="sc()"></body>
+  <script>
+    function sc() {
+      rng = prompt("Enter the range");
+      res = rng.split("-");
+      if (res.length != 2) {
+        alert("invalid range ");
+        return;
+      }
+      first = parseInt(res[0]);
+      second = parseInt(res[1]);
+      if (first > second) {
+        alert("invalid range ");
+        return;
+      }
+      str =
+        "<table border=2><tr><th>Number</th><th>Square</th><th>Cube</th></tr>";
+      for (i = first; i <= second; i++) {
+        str = str + "<tr><td>" + i + "<td>" + i * i + "<td>" + i * i * i;
+      }
+      document.write(str);
+    }
+  </script>
+</html>

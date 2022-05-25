@@ -1,0 +1,36 @@
+<?xml-stylesheet type="text/css" href="info.css" ?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<h1> STUDENTS DESCRIPTION </h1>
+</head>
+<students>
+<student>
+<USN>USN : 1CR19CS123</USN>
+<name>NAME : PRATIK KUMAR MISHRA</name>
+<college>COLLEGE : CMRIT</college>
+<branch>BRANCH : Computer Science and Engineering</branch>
+<year>YEAR : 2022</year>
+<e-mail>E-Mail : prkm19cs@cmrit.ac.in</e-mail>
+</student>
+<student>
+<USN>USN : blabla</USN>
+<name>NAME : blablabla</name>
+<college>COLLEGE : CMRIT</college>
+<branch>BRANCH : Information Science and Engineering</branch>
+<year>YEAR : 2022</year>
+<e-mail>E-Mail : @gmail.com</e-mail>
+</student>
+<student>
+<USN>USN : blabla</USN>
+<name>NAME : blacksheep</name>
+
+<college>COLLEGE : have you any wool</college>
+<branch>BRANCH : yes sir
+</branch>
+<year>YEAR : 2022</year>
+<e-mail>E-Mail : threebagsfool@gmail.com</e-mail>
+</student>
+</students>
+
+</html>
